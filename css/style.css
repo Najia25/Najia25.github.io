@@ -26,6 +26,8 @@ body {
     right:40px;
     z-index: 999;
     display: none;
+    -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, .18), 0 4px 15px 0 rgba(0, 0, 0, .15);
+    box-shadow: 0 5px 11px 0 rgba(0, 0, 0, .18), 0 4px 15px 0 rgba(0, 0, 0, .15);
     -webkit-transition: all .7s ease;
     -o-transition: all .7s ease;
     transition: all .7s ease-in-out; 
