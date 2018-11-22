@@ -18,7 +18,7 @@
    });
         
         
-        //back tot top
+        //back to top
         window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
@@ -34,6 +34,16 @@ function scrollFunction() {
          });
     }
 }
+        
+        $( ".nav-link" ).click(function() {
+  $( ".navbar-collapse" ).removeClass("show");
+});
+        
+   /*     $( ".nav-link" ).click(function() {
+  $( ".navbar-collapse" ).slideUp( "slow", function() {
+    // Animation complete.
+  });*/
+
 
         
          });
