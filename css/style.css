@@ -138,6 +138,14 @@ body {
     position: relative;
 }
 
+.banner-text p:first-of-type{
+    margin-bottom: .4rem;
+}
+
+.banner-text .banner-text-detail{
+    width:50%;
+}
+
 
 .top-nav-collapse {
     background-color: #fff;
@@ -302,7 +310,7 @@ box-shadow: 0 10px 20px 0 rgba(0, 0, 0, .1);
     transform: scale(1.01);
     margin-top: 8px;
     overflow: hidden;
-    height: 360px;
+    /*height: 360px;*/
     transition: all .55s ease-in-out;
 }
 
@@ -360,6 +368,10 @@ box-shadow: 0 10px 20px 0 rgba(0, 0, 0, .1);
 
 .recent-work-content-icon i {
     color: #fff;
+}
+
+.recent-work .btn-grp{
+    display: flex;
 }
 
 /* Testimonials */
@@ -474,12 +486,15 @@ position: relative;
     font-weight:bold;
 }
 
+    .message h2 {
+    padding-left: 37px;
+}
+
 
 
 #contact-form{
     background: #fff;
     padding:2rem 3rem;
-    
     border-radius: .4rem;
 }
 
@@ -487,7 +502,7 @@ position: relative;
     padding: .64rem 3rem;
     margin-top: 2rem;
     font-size: .9rem;
-        font-weight: bold;
+    font-weight: bold;
 }
 .contact .md-form input[type=text]:focus:not([readonly]){
         -webkit-box-shadow: 0 1px 0 0 #FF8800;
@@ -507,6 +522,8 @@ position: relative;
     font-weight: 700;
 }
 
+
+
 .contact-detail{
     list-style: none;
 }
@@ -523,9 +540,13 @@ footer{
     line-height: 36px;
 }
 
+.contact .round-icon{
+    vertical-align: super;
+}
 .footer-top .round-icon{
     transform: scale(.9);
    background: #ff9a28;
+    
 }
 
 a.round-icon{
