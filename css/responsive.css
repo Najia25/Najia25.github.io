@@ -1,0 +1,159 @@
+/*		Medium Device	*/
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    
+    
+    .banner-bottom {
+    bottom: -21px; 
+}
+    .contact .location {
+    font-size: 13px;
+}
+}
+
+
+/*		Tablet Layout: 768px	*/
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    
+    
+        
+    .banner-bottom {
+    bottom: -17px; 
+}
+    .section-header {
+    font-size: 33px;
+}
+    .about-role {
+    font-size: 25px;
+}
+    
+    .round-icon {
+    width: 40px;
+    height: 40px;
+    margin: 3px;
+    line-height: 38px;
+    display: inline-block;
+    font-size: 21px;
+}
+    
+    .personal-detail-left span{
+        font-size:13px;
+    }
+    
+    .personal-detail-left li{
+        margin-bottom:10px;
+    }
+    
+    .download-cv {
+    padding: .54rem 3rem;
+    font-size: .8rem;
+    }
+    
+    .contact .btn-warning {
+    padding: .8rem 5rem;
+    margin-top: 2rem;
+}
+.contact .round-icon{
+    vertical-align: top;
+}
+    
+    
+}
+
+
+/*		Mobile Layout: 320px.    */
+
+@media only screen and (max-width: 767px) {
+    
+    .banner-bottom{
+        bottom: 0px;
+    }
+    
+.cd-words-wrapper b, .cd-headline span{
+        font-size:2.5rem;
+    }
+    
+    .cd-headline.clip .cd-words-wrapper{
+        vertical-align: bottom;
+    }
+    
+    .banner-text .banner-text-detail{
+    width:75%;
+}
+    
+    .banner-text p:first-of-type{
+    margin-bottom: .3rem;
+}
+    
+    .recent-work .btn-grp{
+        display: block;
+    }
+    
+    .btn-grp .btn {
+    display: block;
+    text-align: center;
+    margin: 1rem auto;
+    width: 13rem;
+}
+    
+    .single-testimonial {
+  
+    padding: 0 33px 40px 33px;
+   
+}
+    
+    .contact .location {
+    font-size: 14px;
+}
+    .personal-detail-left {
+    margin-bottom: 0;
+}
+    
+    
+
+
+}
+
+/*wide mobile */
+
+@media only screen and (max-width: 375px){
+    .cd-words-wrapper b, .cd-headline span{
+        font-size:2rem;
+    }
+    
+       .single-testimonial {
+  
+    padding: 0 15px 40px 15px;
+   
+}
+.round-icon {
+    width: 40px;
+    height: 40px;
+    line-height: 38px;
+    margin-right: 4px;
+    font-size: 22px;
+     
+}
+        .contact .location {
+    font-size: 13px;
+    width: 76%;
+}
+    .footer-top .round-icon {
+    margin-left: 5px;
+        
+}
+    
+  
+  
+   
+}
+
+
+
+
+
+
+/* Custom layout */
+
+@media only screen and (min-width: 768px) and (max-width: 1440px) {}
